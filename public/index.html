@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam | Online Examination System</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <a class="brand" href="#dashboard"><span class="brand-icon">🎓</span><span><b>Exam</b><small>LEARN · PRACTISE · IMPROVE</small></span></a>
+    <nav>
+      <button class="nav-link active" data-page="dashboard"><span>⌂</span>Dashboard</button>
+      <button class="nav-link" data-page="exams"><span>▤</span>Take an Exam</button>
+      <button class="nav-link" data-page="practice"><span>◫</span>Practice Zone</button>
+      <button class="nav-link" data-page="results"><span>▥</span>Exam Results</button>
+      <div class="nav-label">STUDY</div>
+      <button class="nav-link" data-page="subjects"><span>▱</span>Subjects</button>
+      <div class="nav-label">ACCOUNT</div>
+      <button class="nav-link" data-page="profile"><span>♙</span>Profile</button>
+      <button class="nav-link logout" id="logoutBtn"><span>⇥</span>Logout</button>
+    </nav>
+    <div class="sidebar-foot">Online Examination System <span>v1.0</span></div>
+  </aside>
+  <main class="main-area">
+    <header class="topbar"><div class="mobile-brand">🎓 Exam</div><div class="top-actions"><button class="icon-btn" id="notificationBtn" aria-label="Notifications">♧<i></i></button><button class="account-btn" id="accountBtn"><span class="avatar">♙</span><span id="accountName">Student account</span><span class="chevron">⌄</span></button><div class="account-menu hidden" id="accountMenu"><button data-page="profile">My profile</button><button id="menuLogout">Logout</button></div></div></header>
+    <section id="pageContent" class="page-content"></section>
+  </main>
+</div>
+<div id="toast" class="toast"></div>
+<script src="app.js"></script>
+</body></html>

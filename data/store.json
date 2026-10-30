@@ -1,0 +1,94 @@
+{
+  "user": {
+    "id": 1,
+    "name": "Student",
+    "email": "student@example.com",
+    "role": "Student"
+  },
+  "exams": [
+    {
+      "id": 1,
+      "title": "Programming Fundamentals Assessment",
+      "subject": "Programming",
+      "duration": 5,
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which keyword is used to declare a constant in JavaScript?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": 2
+        },
+        {
+          "id": 2,
+          "question": "Which data structure follows FIFO?",
+          "options": [
+            "Stack",
+            "Queue",
+            "Tree",
+            "Graph"
+          ],
+          "answer": 1
+        },
+        {
+          "id": 3,
+          "question": "Which language runs in the Java Virtual Machine?",
+          "options": [
+            "Java",
+            "C",
+            "Python",
+            "HTML"
+          ],
+          "answer": 0
+        },
+        {
+          "id": 4,
+          "question": "What is the time complexity of binary search?",
+          "options": [
+            "O(n)",
+            "O(n²)",
+            "O(log n)",
+            "O(1)"
+          ],
+          "answer": 2
+        },
+        {
+          "id": 5,
+          "question": "Which SQL command retrieves records?",
+          "options": [
+            "GET",
+            "SELECT",
+            "FETCHALL",
+            "OPEN"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Programming",
+      "description": "Programming concepts, logic and problem solving",
+      "color": "green"
+    },
+    {
+      "id": 2,
+      "name": "DBMS",
+      "description": "Database design, SQL and transactions",
+      "color": "purple"
+    },
+    {
+      "id": 3,
+      "name": "Networks",
+      "description": "Computer networks and communication",
+      "color": "orange"
+    }
+  ],
+  "results": []
+}
